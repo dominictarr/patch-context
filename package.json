@@ -1,0 +1,22 @@
+{
+  "name": "patch-context",
+  "description": "",
+  "version": "1.0.0",
+  "homepage": "https://github.com/dominictarr/patch-context",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dominictarr/patch-context.git"
+  },
+  "dependencies": {
+    "is-electron": "^2.0.0"
+  },
+  "devDependencies": {},
+  "browser": {
+    "electron": false
+  },
+  "scripts": {
+    "test": "set -e; for t in test/*.js; do node $t; done"
+  },
+  "author": "'Dominic Tarr' <dominic.tarr@gmail.com> (http://dominictarr.com)",
+  "license": "MIT"
+}
